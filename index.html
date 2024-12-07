@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.4">
+  <style type="text/css">
+    body {background-color: #0a1323}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; color: #ffffff; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 14.7px Arial; font-kerning: none}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;title&gt;Anuj Raghavan | Engineering Portfolio&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&amp;family=Space+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;style&gt;</span></p>
+<p class="p1"><span class="s1">        :root {</span></p>
+<p class="p1"><span class="s1">            --primary: #0A192F;</span></p>
+<p class="p1"><span class="s1">            --secondary: #112240;</span></p>
+<p class="p1"><span class="s1">            --accent: #64FFDA;</span></p>
+<p class="p1"><span class="s1">            --text: #CCD6F6;</span></p>
+<p class="p1"><span class="s1">            --text-secondary: #8892B0;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        * {</span></p>
+<p class="p1"><span class="s1">            margin: 0;</span></p>
+<p class="p1"><span class="s1">            padding: 0;</span></p>
+<p class="p1"><span class="s1">            box-sizing: border-box;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        body {</span></p>
+<p class="p1"><span class="s1">            font-family: 'Manrope', sans-serif;</span></p>
+<p class="p1"><span class="s1">            background: var(--primary);</span></p>
+<p class="p1"><span class="s1">            color: var(--text);</span></p>
+<p class="p1"><span class="s1">            line-height: 1.7;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .container {</span></p>
+<p class="p1"><span class="s1">            max-width: 1200px;</span></p>
+<p class="p1"><span class="s1">            margin: 0 auto;</span></p>
+<p class="p1"><span class="s1">            padding: 0 2rem;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .nav {</span></p>
+<p class="p1"><span class="s1">            position: fixed;</span></p>
+<p class="p1"><span class="s1">            width: 100%;</span></p>
+<p class="p1"><span class="s1">            background: rgba(10, 25, 47, 0.95);</span></p>
+<p class="p1"><span class="s1">            backdrop-filter: blur(10px);</span></p>
+<p class="p1"><span class="s1">            padding: 1.5rem 0;</span></p>
+<p class="p1"><span class="s1">            z-index: 100;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .nav-content {</span></p>
+<p class="p1"><span class="s1">            display: flex;</span></p>
+<p class="p1"><span class="s1">            justify-content: space-between;</span></p>
+<p class="p1"><span class="s1">            align-items: center;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .nav-links {</span></p>
+<p class="p1"><span class="s1">            display: flex;</span></p>
+<p class="p1"><span class="s1">            gap: 3rem;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .nav-link {</span></p>
+<p class="p1"><span class="s1">            color: var(--accent);</span></p>
+<p class="p1"><span class="s1">            text-decoration: none;</span></p>
+<p class="p1"><span class="s1">            font-family: 'Space Grotesk', monospace;</span></p>
+<p class="p1"><span class="s1">            font-size: 0.9rem;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .section {</span></p>
+<p class="p1"><span class="s1">            padding: 100px 0;</span></p>
+<p class="p1"><span class="s1">            min-height: 100vh;</span></p>
+<p class="p1"><span class="s1">            display: flex;</span></p>
+<p class="p1"><span class="s1">            align-items: center;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .hero {</span></p>
+<p class="p1"><span class="s1">            background: linear-gradient(to right, var(--primary), var(--secondary));</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .hero h1 {</span></p>
+<p class="p1"><span class="s1">            font-size: 5rem;</span></p>
+<p class="p1"><span class="s1">            margin-bottom: 1rem;</span></p>
+<p class="p1"><span class="s1">            font-family: 'Space Grotesk', monospace;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .grid {</span></p>
+<p class="p1"><span class="s1">            display: grid;</span></p>
+<p class="p1"><span class="s1">            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));</span></p>
+<p class="p1"><span class="s1">            gap: 2rem;</span></p>
+<p class="p1"><span class="s1">            margin-top: 3rem;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .card {</span></p>
+<p class="p1"><span class="s1">            background: var(--secondary);</span></p>
+<p class="p1"><span class="s1">            padding: 2rem;</span></p>
+<p class="p1"><span class="s1">            border-radius: 8px;</span></p>
+<p class="p1"><span class="s1">            border: 1px solid var(--accent);</span></p>
+<p class="p1"><span class="s1">            transition: transform 0.3s ease;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .card:hover {</span></p>
+<p class="p1"><span class="s1">            transform: translateY(-10px);</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .experience-item {</span></p>
+<p class="p1"><span class="s1">            margin-bottom: 2rem;</span></p>
+<p class="p1"><span class="s1">            padding-left: 2rem;</span></p>
+<p class="p1"><span class="s1">            border-left: 2px solid var(--accent);</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .btn {</span></p>
+<p class="p1"><span class="s1">            display: inline-block;</span></p>
+<p class="p1"><span class="s1">            padding: 1rem 2rem;</span></p>
+<p class="p1"><span class="s1">            background: transparent;</span></p>
+<p class="p1"><span class="s1">            border: 1px solid var(--accent);</span></p>
+<p class="p1"><span class="s1">            color: var(--accent);</span></p>
+<p class="p1"><span class="s1">            text-decoration: none;</span></p>
+<p class="p1"><span class="s1">            border-radius: 4px;</span></p>
+<p class="p1"><span class="s1">            transition: all 0.3s ease;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .btn:hover {</span></p>
+<p class="p1"><span class="s1">            background: rgba(100, 255, 218, 0.1);</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .contact-form {</span></p>
+<p class="p1"><span class="s1">            max-width: 600px;</span></p>
+<p class="p1"><span class="s1">            margin: 0 auto;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        input, textarea {</span></p>
+<p class="p1"><span class="s1">            width: 100%;</span></p>
+<p class="p1"><span class="s1">            padding: 1rem;</span></p>
+<p class="p1"><span class="s1">            margin-bottom: 1rem;</span></p>
+<p class="p1"><span class="s1">            background: var(--secondary);</span></p>
+<p class="p1"><span class="s1">            border: 1px solid var(--accent);</span></p>
+<p class="p1"><span class="s1">            color: var(--text);</span></p>
+<p class="p1"><span class="s1">            border-radius: 4px;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        @keyframes fadeIn {</span></p>
+<p class="p1"><span class="s1">            from { opacity: 0; transform: translateY(20px); }</span></p>
+<p class="p1"><span class="s1">            to { opacity: 1; transform: translateY(0); }</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        .animate {</span></p>
+<p class="p1"><span class="s1">            animation: fadeIn 0.6s ease forwards;</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p1"><span class="s1">    &lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;nav class="nav"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="container nav-content"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="nav-links"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;a href="#about" class="nav-link"&gt;About&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;a href="#experience" class="nav-link"&gt;Experience&lt;/a&gt;</span></p>
+<p class="p1"><span class="s2"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">      </span>&lt;a href=“#skills” class="nav-link"&gt;Experience&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;a href="#projects" class="nav-link"&gt;Projects&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;a href="#contact" class="nav-link"&gt;Contact&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/nav&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;section class="section hero"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="container animate"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h1&gt;Anuj Raghavan&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;p style="color: var(--text-secondary); font-size: 1.5rem;"&gt;Mechanical Engineering Student at University of Michigan&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;p style="max-width: 600px; margin: 2rem 0;"&gt;GPA: 3.62/4.00 | Expected Graduation: May 2026&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#contact" class="btn"&gt;Get In Touch&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;section id="experience" class="section"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h1&gt;Experience&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;University of Michigan Mechanical Engineering&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;Freeze Casting Researcher&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;Utilized ANSYS and Solidworks to pioneer a unique freeze casting method, enabling the production of desirable microstructures for various applications. Developed expertise in manufacturing-informed design and material selection, creating a steel and copper structure with a dual power screw system to precisely lower the mold into liquid nitrogen, enabling a controllable freezing front. Gained hands-on proficiency in CAD modeling, manufacturing, and design ideation Built a solid foundation in circuit design, wiring stepper motors and programming Arduino for seamless electromechanical integration.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Design and Manufacturing&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;Team Lead&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;Employed Solidworks and ADAMS softwares to design a multifunctional robot with a rack and pinion arm, four-bar linkage system, and belt and pulley drivetrain. Developed machining skills, including using a mill, lathe, waterjet, and laser cutter. Acquired in-depth knowledge in GD&amp;T, gears and linkages, and a wide range of manufacturing systems and processes, from metal casting to plastic forming.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Michigan Neuroprosthetics&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;Mechanical Team Member&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt;Collaboratively designed and created components of a prosthetic arm for physically impaired patients, specifically focused around the tricep-forearm connection, stringing, and finger molding, to improve overall mobility and ease for every-day activities. Experienced in 3-D Printing, silicone molding, creating engineering drawings, stress/strain analysis, as well as Onshape, Fusion, and Solidworks CAD softwares.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Span IO&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;Incoming Mechanical Engineer Co-op&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt; </span></p>
+<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">     &lt;section id="projects" class="section"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h1&gt;Projects&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Electromechanical 4 Bar Linkage System&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;hr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; The goal of this project was to design and manufacture a powered mechanism that automatically senses targets that pop up and shine a light on their corresponding photosensors. This was done through a 4 Bar linkage mechanism, consisting of the ground(baseplate), input, follower, and coupler links. As a a part of the competition the main scoring areas relied on transmission angle, weight, and overall performance in shining the light on the photosensors. The system is wired to an Arduino which we programmed in order to automatically sense the target and move the light to them. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;img src="html1.png" alt="4 Bar Linkage Mechanism Top View" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is an image of our linkage design. Aluminum and steel alloys were the primary options for materials, we ended up using Aluminum 6061 as it is fairly strong but we wanted to optimize for weight and the mechanism is not undergoing sizeable loads, it just experiences high vibration and movement. Wherever we could we used 3D printed parts to further reduce weight, we ended up using it for the flashlight holder below the coupler (not pictured), the motor support, and the limit switch holder as these areas don't experience great stress and the parts did not need to be machined as the tolerances were not as important. &lt;p&gt;  </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html2.png" alt="Joint Design" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is a cross sectional view of our joint design, all joints on our linkage followed this design. We chose to use a robust steel alloy for our shoulder bolt to withstand lots of movement and any moment created from our linkage hanging off the baseplate. The washer/bearing stackup was used in order to reduce friction, allow for free movement, distribute the load over a greater area to reduce stress concentrations, and to mitigate binding of our links by allowing some separation. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html3.png" alt="4 Bar Linkage Mechanism Top View" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is an example of one of the Engineering drawings for this project, the baseplate. For all parts, exterior geometry was water jetted, thus they are dimensioned to 2 decimal places. All mating geometry was milled, as you can see in the image interference and clearance holes are depicted and all holes and slots are dimensioned from the bottom left corner (datum).   &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html11.png" alt="Proximity Sensor Arduino Wiring Diagram" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is the Fritzing diagram for our mechanism to Arduino wiring. The motor encoder we used paired with the Arduino allows us to know exactly what position the mechanism is in and from there we were able to code it to move according to what flag was raised based on the proximity sensors. To optimize the code we ranked priority of the flags and reduced wait time error when multiple flags are up, so the mechanism wouldn't get confused.  &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Multifunctional Robot Machine Player&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;hr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">  </span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; The goal of this project was to design and manufacture a multifunctional robot that pushes a 15N block 2 meters, raise a half a kilogram magnet to attach to a lever, and drive over light switches to flip them. The entire process consisted of hand sketching multiple designs, deciding on one through a Pugh chart analysis, actually designing it on Solidworks, manufacturing each of the individual components, then putting it all together and testing.  &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html5.png" alt="Multifunctional Robot" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is a CAD model of our robot, featuring an Aluminum 6061 structure for lightweight and strength. Instead of putting two more plates on the front and back we decided to use high strength carbon steel rods to prevent buckling and to provide structural support, while having less mass than aluminum plates. We chose to use polypropylene wheels that had enough friction to stick to the ground as we push the mass. And we also decided to use a rack and pinion arm to raise our magnet, selecting the number of stages for our planetary motor based on empirical testing. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html6.png" alt="First Principles Motor Selection" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is our first principles analysis of each of the motor options to see which motor we should select based on the load we had to push (required torque) and friction coefficient.   &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html7.png" alt="Electronics Platform Engineering Drawing" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is an example of one of the Engineering drawings for this project, the electronics platform. For this part there were many holes of different kinds, so creating a hole chart was necessary to keep track of everything and make sure consistent datums were used.   &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h1&gt;Unique Freeze Casting System&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;hr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; The goal of this project was to develop a novel method to freeze casting. Traditional freeze casting consists of freezing a slurry to create a porous microstructure that has desirable mechanical properties while still being lightweight and useable for a variety of applications from electrical to medical. However, it is a very uncontrollable and random process, so this project was aimed at developing a system and method to control that process (temperature gradient) and be able to control what microstructure is produced.  &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html12.png" alt="Freeze Casting System" style="width:420px;height:500px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html13.png" alt="Copper Surroundings CAD Model" style="width:420px;height:500px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above are photos of the freeze casting system. The one on the left depicts the dual stepper motor system connected to a 3D printed extrusion that holds the mold, which is then lowered into the cool surroundings. Inside the cool environment is the image on the right, a copper structure with a removable cover to view the experiment during the freezing process. Copper was chosen as it has robust mechanical properties and very good thermal properties, so as it surrounds the mold it will keep it very cool and contain the freezing temperatures.   &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html14.png" alt="Real Life System" style="width:420px;height:500px;"&gt;</span></p>
+<p class="p1"><span class="s1">            </span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; This image shows the actual system in real life from a top view. The copper structure is visible and the surrounding box is made of acrylic covered in thermal insulation. The front of the insulation and copper cover are removable to track the freezing process throughout testing.   &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Prosthetic Arm&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;hr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; The goal of this project was to design and build a 3D printable prosthetic arm for physically impaired patients. Each arm was highly functional, affordable, and tailored to specific patients. The reason 3D printing was chosen is that it is a highly controllable additive manufacturing process, that is fairly cheap and repeatable. As an organization our goal was to allow companies and patients to recreate our models themselves and adapt according to their own needs and 3D printing allows for that. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;img src="html8.png" alt="3D Printed Prosthetic Arm CAD" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is an image of an early design of one of the arms. The tricep forearm connection in this case was made of lightweight steel, however in later iterations those parts were also 3D printed. The forearm is a low infill 3D print that houses the electronic components that allow for mobility. A lot of what I worked on was iterating through the tricep forearm connection, allowing for greater mobility in the elbow joint and hand joints, and creating adaptable models such as tablet usable fingers. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html9.png" alt="Arm Cicruit Diagram" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is a depiction of th e motor wiring diagram that connects the muscle sensor to the motor to allow for movement based on the patients needs and desires. &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">&lt;img src="html10.png" alt="Hand Engineering Drawing" style="width:600px;height:420px;"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt; Above is an example of an engineering drawing of the hand and depicts the various flexion joints and areas for mobility.  &lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="experience-item animate"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;h1&gt;Span IO&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;hr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;COMING SOON&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;p&gt; </span></p>
+<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div class="experience-item animate"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;section id="contact" class="section"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h2&gt;Contact&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="contact-form animate"&gt;</span></p>
+<p class="p1"><span class="s1"> &lt;form action="https://formspree.io/f/movqnnyk" method="POST"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;input type="email" name="email" placeholder="Your Email" required&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;textarea name="message" rows="5" placeholder="Your Message" required&gt;&lt;/textarea&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;button type="submit" class="btn"&gt;Send Message&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/form&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">                &lt;div style="margin-top: 2rem;"&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;p&gt;Email: anujr@umich.edu&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;p&gt;Phone: (513) 399-1107&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;a href="https://drive.google.com/drive/folders/1Z4qWJfoMLB6a8z-RJ7Ab0relrGLy3SzF?usp=sharing" class="btn" style="margin-top: 1rem;"&gt;Resume&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">                   &lt;a href="https://www.linkedin.com/in/anujragh/" class="btn" style="margin-top: 1rem;"&gt;LinkedIn Profile&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+</body>
+</html>
